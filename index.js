@@ -4,5 +4,5 @@ function map(arr, fx) {
   for(const e of arr) {
     mappedArr.push(fx(e));
   };
-  return mappedArray;
+  return mappedArr;
 };
